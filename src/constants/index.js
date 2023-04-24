@@ -23,7 +23,8 @@ import {
   threejs,
   yabb,
   transfree,
-  rsk
+  rsk,
+  portofolio
 } from "../assets";
 
 export const navLinks = [
@@ -214,25 +215,21 @@ const projects = [
     source_code_link: "https://github.com/ridhodaffasyah/hackbiz-metagross",
   },
   {
-    name: "Trip Guide",
+    name: "Web Portofolio",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "This is my personal web portofolio. A professional online presence that highlights my unique skills, expertise, and experiences. I made this web portofolio using React.js, Tailwind CSS, and Framer Motion. I use React.js as my frontend framework. I use Tailwind CSS as my CSS framework. I use Framer Motion as my animation library.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: portofolio,
+    source_code_link: "https://github.com/ridhodaffasyah/web-portofolio",
   },
 ];
 

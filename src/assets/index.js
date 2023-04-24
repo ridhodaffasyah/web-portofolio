@@ -34,6 +34,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import spotifywebapp from "./spotifywebapp.png";
 import edurang from "./edurang.png";
+import portofolio from "./portofolio.png";
 
 export {
   logo,
@@ -68,5 +69,6 @@ export {
   transfree,
   rsk,
   spotifywebapp,
-  edurang
+  edurang,
+  portofolio,
 };
