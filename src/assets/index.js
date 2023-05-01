@@ -35,6 +35,7 @@ import tripguide from "./tripguide.png";
 import spotifywebapp from "./spotifywebapp.png";
 import edurang from "./edurang.png";
 import portofolio from "./portofolio.png";
+import age_calculator from "./age_calculator.png";
 
 export {
   logo,
@@ -71,4 +72,5 @@ export {
   spotifywebapp,
   edurang,
   portofolio,
+  age_calculator
 };

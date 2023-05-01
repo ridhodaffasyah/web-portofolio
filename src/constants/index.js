@@ -24,7 +24,8 @@ import {
   yabb,
   transfree,
   rsk,
-  portofolio
+  portofolio,
+  age_calculator
 } from "../assets";
 
 export const navLinks = [
@@ -230,6 +231,27 @@ const projects = [
     ],
     image: portofolio,
     source_code_link: "https://github.com/ridhodaffasyah/web-portofolio",
+  },
+  {
+    name: "Age Calculator App",
+    description:
+      "This is my answer for the challenge from frontmentor.io. This challenge is designed to sharpen your JavaScript and form validation skills. Working with dates in JavaScript can be tricky, so this will be a nice test. This app can be use for View an age in years, months, and days after submitting a valid date through the form",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: age_calculator,
+    source_code_link: "https://github.com/ridhodaffasyah/Age-Calculator-App",
   },
 ];
 
