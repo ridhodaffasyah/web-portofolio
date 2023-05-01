@@ -41,7 +41,7 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
-          <button className="bg-white text-blue-950 py-2 px-[12px] rounded-[10px] font-bold hover:bg-blue-950 hover:text-white"><a href="../assets/cv/Ridho Daffasyah.pdf" download>Download CV</a></button>
+          <button className="bg-white text-blue-950 py-2 px-[12px] rounded-[10px] font-bold hover:bg-blue-950 hover:text-white"><a href="../assets/cv/Ridho Daffasyah_CV.pdf" download>Download CV</a></button>
         </ul>
 
         <div className="sm:hidden flex flex-1 justify-end items-center">
