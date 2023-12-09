@@ -21,13 +21,10 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 import yabb from "./company/yabb.png";
 import transfree from "./company/transfree.png";
 import rsk from "./company/rsk.png";
+import bri from "./company/bri.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -36,6 +33,8 @@ import spotifywebapp from "./spotifywebapp.png";
 import edurang from "./edurang.png";
 import portofolio from "./portofolio.png";
 import age_calculator from "./age_calculator.png";
+import phonebookproject from "./phonebookproject.png";
+import taskscheduler from "./taskscheduler.png";
 
 export {
   logo,
@@ -59,18 +58,17 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   carrent,
   jobit,
   tripguide,
   yabb,
   transfree,
   rsk,
+  bri,
   spotifywebapp,
   edurang,
   portofolio,
-  age_calculator
+  age_calculator,
+  phonebookproject,
+  taskscheduler,
 };

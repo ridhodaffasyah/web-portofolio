@@ -15,17 +15,17 @@ import {
   git,
   figma,
   docker,
-  carrent,
   spotifywebapp,
   edurang,
-  jobit,
-  tripguide,
   threejs,
   yabb,
   transfree,
   rsk,
   portofolio,
-  age_calculator
+  age_calculator,
+  bri,
+  phonebookproject,
+  taskscheduler,
 } from "../assets";
 
 export const navLinks = [
@@ -45,16 +45,16 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Fullstack Engineer",
     icon: web,
   },
   {
-    title: "Mobile Developer",
-    icon: mobile,
+    title: "Software Engineer",
+    icon: backend,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "Mobile Engineer",
+    icon: mobile,
   },
   {
     title: "UI/UX Designer",
@@ -151,6 +151,18 @@ const experiences = [
       "Learn some insights and experience from Mentor on Internship Session."
     ],
   },
+  {
+    title: "Frontend Engineer Intern",
+    company_name: "PT. Bank Rakyat Indonesia (Persero) Tbk",
+    icon: bri,
+    iconBg: "#FFFFFF",
+    date: "May 2023 - July 2023",
+    points: [
+      "Build features (eForm and Menu) of Kupedes Digital for Loan BRI website using React JS.",
+      "Integrate features with API (RestApi).",
+      "Learn some insights and experience from Mentor on Internship Session.",
+    ],
+  },
 ];
 
 const testimonials = [
@@ -182,6 +194,81 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Task Scheduler App - FE",
+    description:
+      "This is my assignment for technical test at ADT (Awan Dinata Teknologi). This application is called Task Scheduler App where this application has several features, especially in terms of searching for task, adding tasks, editing tasks, and deleting tasks. The application utilizes the API with REST Api, especially the CRUD datas.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "redux-persist",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: taskscheduler,
+    source_code_link: "https://github.com/ridhodaffasyah/Task-Scheduler-ADT-Test",
+  },
+  {
+    name: "Task Scheduler App - BE",
+    description:
+      "This is my assignment for technical test at ADT (Awan Dinata Teknologi). This application is called Task Scheduler App where this application has several features, especially in terms of searching for task, adding tasks, editing tasks, and deleting tasks. The application utilizes the API with REST Api, especially the CRUD datas.",
+    tags: [
+      {
+        name: "expressjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "rest-api",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "mongodb-atlas",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: taskscheduler,
+    source_code_link: "https://github.com/ridhodaffasyah/Task-Scheduler-ADT-Test-BE",
+  },
+  {
+    name: "Phone Book App",
+    description:
+      "This is my assignment for technical test GOTO. This application is called Phone Book App where this application has several features, especially in terms of searching for contacts, adding contacts, editing contacts, and deleting contacts. The application utilizes the API from the GOTO, especially the CRUD datas.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "emotion-css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "apollo-client",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: phonebookproject,
+    source_code_link: "https://github.com/ridhodaffasyah/Phone-Book-Project-Assignment",
+  },
+  {
     name: "Spotify Web App",
     description:
       "This application is called Spotify Web App where this application has several features, especially in terms of searching for songs and creating playlists according to the selected song. The application utilizes the API from the Spotify Developer, especially the Search, User, Playlist and Track APIs. The scope user used is private-modify-playlist.",
@@ -191,7 +278,15 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
         name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "redux-persist",
         color: "pink-text-gradient",
       },
     ],
@@ -208,7 +303,19 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
         name: "css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "material-ui",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "react-context",
         color: "pink-text-gradient",
       },
     ],
@@ -225,7 +332,15 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
         name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "threejs",
         color: "pink-text-gradient",
       },
     ],
